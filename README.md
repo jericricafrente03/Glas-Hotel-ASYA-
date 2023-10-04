@@ -20,20 +20,21 @@ Home
 
 Amenities
 
-![amenities](https://github.com/jericricafrente03/Pullman-Project---Android/assets/56525014/4864ec18-0e12-494e-abc3-cd46ec33791d)
+![amenities](https://github.com/jericricafrente03/Glas-Hotel-ASYA---Android/assets/56525014/a75713c1-45b2-47e2-894f-20dacc88d259)
 
 Message
 
-![message](https://github.com/jericricafrente03/Pullman-Project---Android/assets/56525014/e15a5246-8605-4261-9d40-b548a0f9d2be)
+![message](https://github.com/jericricafrente03/Glas-Hotel-ASYA---Android/assets/56525014/f6e4c8c3-7e28-4e59-8fbc-a77eaacd5992)
 
 Airmedia
 
-![airmedia](https://github.com/jericricafrente03/Pullman-Project---Android/assets/56525014/a1cd3f70-3698-4211-b61c-6c7633e12f4f)
+![airmedia](https://github.com/jericricafrente03/Glas-Hotel-ASYA---Android/assets/56525014/a384abd2-e99b-40d9-9153-248bcde7a6f2)
 
 Airmedia - android
 
-![android-airmedia](https://github.com/jericricafrente03/Pullman-Project---Android/assets/56525014/20b10d34-88b0-4a65-a013-86d47f9cebc9)
+![android-airmedia](https://github.com/jericricafrente03/Glas-Hotel-ASYA---Android/assets/56525014/cc025de0-28b6-4bd3-bdb8-7c0e1b2a3eeb)
 
 TV
+![TV](https://github.com/jericricafrente03/Glas-Hotel-ASYA---Android/assets/56525014/cdd55890-987f-482b-a4dd-fa22d2de3511)
 
-![TV](https://github.com/jericricafrente03/Pullman-Project---Android/assets/56525014/76891977-80f7-464c-9351-2f44d70044c2)
+
