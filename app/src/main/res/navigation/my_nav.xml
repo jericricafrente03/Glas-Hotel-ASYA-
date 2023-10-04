@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/mainPage">
+
+    <fragment
+        android:id="@+id/tv"
+        android:name="com.ph.bittelasia.meshtv.tv.glasshoteldemo.ui.tv.ui.Tv"
+        android:label="fragment_tv"
+        tools:layout="@layout/fragment_tv" >
+        <action
+            android:id="@+id/action_tv_to_mainPage"
+            app:destination="@id/mainPage" />
+        <action
+            android:id="@+id/action_tv_to_alert"
+            app:destination="@id/alert" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/amenities"
+        android:name="com.ph.bittelasia.meshtv.tv.glasshoteldemo.ui.amenities.Amenities"
+        android:label="fragment_amenities"
+        tools:layout="@layout/fragment_amenities" >
+        <action
+            android:id="@+id/action_amenities_to_mainPage"
+            app:destination="@id/mainPage" />
+        <action
+            android:id="@+id/action_amenities_to_alert"
+            app:destination="@id/alert" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainPage"
+        android:name="com.ph.bittelasia.meshtv.tv.glasshoteldemo.main.MainPage"
+        android:label="fragment_main_page"
+        tools:layout="@layout/fragment_main_page" >
+        <action
+            android:id="@+id/action_mainPage_to_tv"
+            app:destination="@id/tv"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/fade_out" />
+        <action
+            android:id="@+id/action_mainPage_to_amenities"
+            app:destination="@id/amenities"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/fade_out" />
+        <action
+            android:id="@+id/action_mainPage_to_messages"
+            app:destination="@id/messages"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/fade_out" />
+        <action
+            android:id="@+id/action_mainPage_to_alert"
+            app:destination="@id/alert" />
+        <action
+            android:id="@+id/action_mainPage_to_airmedia"
+            app:destination="@id/airmedia" />
+    </fragment>
+    <fragment
+        android:id="@+id/messages"
+        android:name="com.ph.bittelasia.meshtv.tv.glasshoteldemo.ui.messages.Messages"
+        android:label="fragment_messages"
+        tools:layout="@layout/fragment_messages" >
+        <action
+            android:id="@+id/action_messages_to_mainPage"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/fade_out"
+            app:destination="@id/mainPage" />
+        <action
+            android:id="@+id/action_messages_to_alert"
+            app:destination="@id/alert" />
+    </fragment>
+    <fragment
+        android:id="@+id/alert"
+        android:name="com.ph.bittelasia.meshtv.tv.glasshoteldemo.ui.alert.Alert"
+        android:label="fragment_alert"
+        tools:layout="@layout/fragment_alert" />
+
+    <fragment
+        android:id="@+id/airmedia"
+        android:name="com.ph.bittelasia.meshtv.tv.glasshoteldemo.ui.airmedia.Airmedia"
+        android:label="fragment_airmedia"
+        tools:layout="@layout/fragment_airmedia" >
+        <action
+            android:id="@+id/action_airmedia_to_mainPage"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/fade_out"
+            app:destination="@id/mainPage" />
+        <action
+            android:id="@+id/action_airmedia_to_android"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/fade_out"
+            app:destination="@id/android" />
+        <action
+            android:id="@+id/action_airmedia_to_IOS"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/fade_out"
+            app:destination="@id/IOS" />
+        <action
+            android:id="@+id/action_airmedia_to_windows"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/fade_out"
+            app:destination="@id/windows" />
+    </fragment>
+    <fragment
+        android:id="@+id/android"
+        android:name="com.ph.bittelasia.meshtv.tv.glasshoteldemo.ui.airmedialist.Android"
+        android:label="fragment_android"
+        tools:layout="@layout/fragment_android" >
+        <action
+            android:id="@+id/action_android_to_airmedia"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/fade_out"
+            app:destination="@id/airmedia" />
+    </fragment>
+    <fragment
+        android:id="@+id/IOS"
+        android:name="com.ph.bittelasia.meshtv.tv.glasshoteldemo.ui.airmedialist.IOS"
+        android:label="fragment_i_o_s"
+        tools:layout="@layout/fragment_i_o_s" >
+        <action
+            android:id="@+id/action_IOS_to_airmedia"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/fade_out"
+            app:destination="@id/airmedia" />
+    </fragment>
+    <fragment
+        android:id="@+id/windows"
+        android:name="com.ph.bittelasia.meshtv.tv.glasshoteldemo.ui.airmedialist.Windows"
+        android:label="fragment_windows"
+        tools:layout="@layout/fragment_windows" >
+        <action
+            android:id="@+id/action_windows_to_airmedia"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/fade_out"
+            app:destination="@id/airmedia" />
+    </fragment>
+</navigation>
